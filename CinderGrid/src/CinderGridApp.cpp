@@ -29,7 +29,7 @@ void CinderGridApp::update()
 
 void CinderGridApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0, 0, 0 ));
     
     Perlin perlin;
     for(int y = 0; y < 100; y++) {
